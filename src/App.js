@@ -12,8 +12,8 @@ return (
     <div>
         <Header />
         <Switch>
-            <Route exact path='/crwn-clothing' component={HomePage} />
-            <Route path='/crwn-clothing/shop' component={ShopPage} />
+            <Route exact path={['/', '/crwn-clothing']} component={HomePage} />
+            <Route path={['/', '/shop']} component={ShopPage} />
         </Switch>
     </div>
   )
