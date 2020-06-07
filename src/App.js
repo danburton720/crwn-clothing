@@ -48,9 +48,9 @@ class App extends React.Component {
             <div>
                 <Header currentUser={this.state.currentUser} />
                 <Switch>
-                    <Route exact path={['/', '/crwn-clothing']} component={HomePage} />
-                    <Route path={['/shop', '/crwn-clothing/shop']} component={ShopPage} />
-                    <Route path={['/signin','/crwn-clothing/signin']} component={SignInAndSignUpPage} />
+                    <Route exact path={'/'} component={HomePage} />
+                    <Route path={'/shop'} component={ShopPage} />
+                    <Route path={'/signin'} component={SignInAndSignUpPage} />
                 </Switch>
             </div>
           )
