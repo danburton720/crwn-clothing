@@ -52,7 +52,7 @@ class App extends React.Component {
                         path='/signin'
                         render={() =>
                             this.props.currentUser ? (
-                                <Redirect to='/crwn-clothing' />
+                                <Redirect to='/' />
                                 ) : (
                                     <SignInAndSignUpPage />
                                     )
