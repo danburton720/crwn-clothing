@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import CustomButton from '../custom-button/custom-button.component';
 
-export const CartDropdownContainer = styled.div`
+export const BagDropdownContainer = styled.div`
   position: absolute;
   width: 240px;
   height: 340px;
@@ -15,7 +15,7 @@ export const CartDropdownContainer = styled.div`
   z-index: 5;
 `;
 
-export const CartDropDownButton = styled(CustomButton)`
+export const BagDropDownButton = styled(CustomButton)`
     margin-top: auto;
 `;
 
@@ -24,7 +24,7 @@ export const EmptyMessageContainer = styled.span`
     margin: 50px auto;
 `;
 
-export const CartItemsContainer = styled.div`
+export const BagItemsContainer = styled.div`
     height: 240px;
     display: flex;
     flex-direction: column;

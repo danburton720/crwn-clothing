@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { addItem } from '../../redux/cart/cart.actions';
+import { addItem } from '../../redux/bag/bag.actions';
 
 import {
     CollectionItemContainer,
@@ -23,7 +23,7 @@ const CollectionItem = ({ item, addItem }) => {
                 <PriceContainer>£{price}</PriceContainer>
             </CollectionFooterContainer>
             <AddButton onClick={() => addItem(item)} inverted>
-                Add to cart
+                Add to bag
             </AddButton>
         </CollectionItemContainer>
     );
