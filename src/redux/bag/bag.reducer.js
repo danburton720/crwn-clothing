@@ -30,7 +30,7 @@ const bagReducer = (state = INITIAL_STATE, action) => {
                     bagItem => bagItem.id !== action.payload.id
                 )
             };
-        case BagActionTypes.CLEAR_ALL_ITEMS_FROM_BAG:
+        case BagActionTypes.CLEAR_BAG:
             return {
                 ...state,
                 bagItems: []
