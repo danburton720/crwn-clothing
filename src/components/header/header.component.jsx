@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import {createStructuredSelector} from 'reselect';
 
-import { auth } from '../../firebase/firebase.utils';
 import BagIcon from '../bag-icon/bag-icon.component';
 import BagDropdown from '../bag-dropdown/bag-dropdown.component';
 import { selectBagHidden } from '../../redux/bag/bag.selectors';
