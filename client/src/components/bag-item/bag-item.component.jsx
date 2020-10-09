@@ -18,4 +18,4 @@ const BagItem = ({ item: { imageUrl, price, name, quantity } }) => (
     </BagItemContainer>
 );
 
-export default BagItem;
+export default React.memo(BagItem);
