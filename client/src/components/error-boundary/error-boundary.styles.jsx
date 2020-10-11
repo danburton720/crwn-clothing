@@ -7,6 +7,9 @@ export const ErrorImageOverlay = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 800px) {
+        height: 75vh;  
+  }
 `;
 
 export const ErrorImageContainer = styled.div`
@@ -21,9 +24,18 @@ export const ErrorImageContainer = styled.div`
 export const ErrorImageTextHeading = styled.h2`
     font-size: 28px;
     color: #2f8e89;
+    @media screen and (max-width: 800px) {
+        position: relative;
+        top: 10vw;  
+    }
 `;
 
 export const ErrorImageText = styled.p`
   font-size: 24px;
-  color: #2f8e89;
+  color: #2f8e89;    
+  text-align: center;  
+  @media screen and (max-width: 800px) {
+        position: relative;
+        top: 5vw;
+  }
 `;
